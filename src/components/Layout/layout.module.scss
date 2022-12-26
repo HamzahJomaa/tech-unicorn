@@ -1,0 +1,33 @@
+.LayoutContainer{
+    width: 80% !important;
+    margin: 0 auto;
+    align-items: center;
+    .LeftLayout{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .CenterLayout{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .RightLayout{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2rem;
+        .BoxContainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            svg{
+                margin-right: .5rem;
+            }
+        }
+    }
+}

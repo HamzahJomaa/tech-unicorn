@@ -1,0 +1,36 @@
+.Container{
+    width: 80% !important;
+    margin: 1rem auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    .MenuContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        font-size: 1.1rem;
+        a{
+            color: black ;
+            text-decoration: unset !important;
+        }
+        .active{
+            font-weight: bolder;
+        }
+    }
+    .SearchContainer{
+        background-color: white;
+        border-radius: .4rem;
+        padding: 1rem;
+        .Search{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .NavbarLogoContainer{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        width: 100%;
+        gap: 2rem;
+    }
+}
