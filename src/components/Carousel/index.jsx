@@ -29,7 +29,6 @@ const Carousel = ({title, subtitle, items}) => {
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
             >
-        
             {items && items.map(item => (<SwiperSlide><SwiperItem item={item}/></SwiperSlide>))}
         </Swiper>
         

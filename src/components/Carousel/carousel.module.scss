@@ -13,14 +13,14 @@
 .Item{
     width: 350px;
     height: 350px;
-    background-color: gray;
+    background-color: #E2E2EA;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
     img{
-        width: 350px ;
+        width: 60% ;
         height: 260px;
     }
     .lowerSection{
