@@ -31,13 +31,14 @@ $primary-color: #F86338;
             height: 20vw;
         }
         .lowerSection{
+            width: 100%;
             h4{
                 text-align: left !important;
                 width: 100%;
             }
             .IconButton{
                 width: 10%;
-                border-radius: 50px;
+                border-radius: 50%;
                 padding: .5rem;
                 display: flex;
                 justify-content: center;

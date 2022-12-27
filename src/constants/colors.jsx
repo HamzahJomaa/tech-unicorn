@@ -1,3 +1,4 @@
 exports.COLORS = {
-    LIGHT_PRIMARY: "#F4F7F8"
+    LIGHT_PRIMARY: "#F4F7F8",
+    ORANGE_PRIMARY: "#F86338"
 }

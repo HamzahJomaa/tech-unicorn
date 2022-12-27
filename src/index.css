@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#carousel-homepage{
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#carousel-homepage > div:first-child {
+  margin-top: 2rem;
+}
+
+
+.swiper-pagination-bullet-active{
+  background-color: #F86338 !important;
+}

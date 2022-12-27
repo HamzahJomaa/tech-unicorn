@@ -40,7 +40,7 @@ const ProductsTopFilter = ({items}) => {
             {products && 
                 
                     <Box className={style.ProductFilter}>
-                        {products.slice(0,8).map(p => (<Item item={p} />))}
+                        {products.slice(0,6).map(p => (<Item item={p} />))}
                     </Box>
             
             }

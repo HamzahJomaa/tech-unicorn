@@ -1,0 +1,42 @@
+.Description{
+    text-align: center;
+    padding: 2rem 30rem;
+    .title{
+        margin-bottom: 1.2rem;
+    }
+    .subtitle{
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+}
+
+.Item{
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    img{
+        width: 350px ;
+        height: 260px;
+    }
+    .lowerSection{
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #E2E2EA;
+        width: 100%;
+        *{
+            width: 50%;
+            margin: 0 auto;
+            padding: 0;
+            color: black;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-transform: capitalize;
+        }
+    }
+}
